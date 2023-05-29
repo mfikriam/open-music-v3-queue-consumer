@@ -1,0 +1,34 @@
+{
+  "name": "open-music-v3-queue-consumer",
+  "version": "1.0.0",
+  "description": "Program Consumer For OpenMusic v3",
+  "main": "index.js",
+  "scripts": {
+    "start-prod": "NODE_ENV=production node ./src/consumer.js",
+    "start-dev": "nodemon ./src/consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfikriam/open-music-v3-queue-consumer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfikriam/open-music-v3-queue-consumer/issues"
+  },
+  "homepage": "https://github.com/mfikriam/open-music-v3-queue-consumer#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "auto-bind": "^4.0.0",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.2",
+    "pg": "^8.11.0"
+  }
+}
